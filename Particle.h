@@ -17,6 +17,7 @@ class Particle {
 		float pressure;
 		int index;
 		float r;
+		vector<int> neighbors;
 };
 
 #endif

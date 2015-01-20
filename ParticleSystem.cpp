@@ -33,7 +33,7 @@ ParticleSystem::ParticleSystem(ofVec3f origen){
 	ofLog() << "Radio " << radio << endl;
 
 	kernel = new Kernels(smoothing_length);
-	//t = new HashTable(nextPrime(num_particles*2),smoothing_length);
+	t = new HashTable(nextPrime(num_particles*2),smoothing_length);
 
 	for (int i = 0; i < ppedge; i++){
 		for (int j = 0; j < ppedge; j++){
@@ -51,16 +51,16 @@ void ParticleSystem::update()
 {   
 	
 	if(!frame){
-		/*t->limpiar();
-		t->getVecinos(particulas[0]->pos);
+		t->limpiar();
+		
 		for(int i=0; i<particulas.size(); i++){
 			t->insertar(particulas[i]->pos, i);
 		}
-		
+		ofLog() << "index | neighbors size " << endl;
 		for(int i=0; i<particulas.size(); i++){
 			particulas[i]->neighbors = t->getVecinos(particulas[i]->pos);
-			cout << i << " " << particulas[i]->neighbors.size() << endl;
-		}*/
+			ofLog() << i << " " << particulas[i]->neighbors.size() << endl;
+		}
 
 		//Reset parameters
 		for (int i = 0; i < particulas.size(); i++){

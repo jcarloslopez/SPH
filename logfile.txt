@@ -1,6 +1,6 @@
 
 
---------------------------------------- 2015-01-19-17-06-24-499
+--------------------------------------- 2015-01-20-08-36-44-032
 [notice ] dt 0.002
 
 [notice ] num_particles 125
@@ -12,6 +12,258 @@
 [notice ] HashTable 251
 
 [notice ] Radio 0.0049628
+
+[notice ] index | neighbors size 
+
+[notice ] 0 64
+
+[notice ] 1 64
+
+[notice ] 2 80
+
+[notice ] 3 80
+
+[notice ] 4 48
+
+[notice ] 5 64
+
+[notice ] 6 64
+
+[notice ] 7 80
+
+[notice ] 8 80
+
+[notice ] 9 48
+
+[notice ] 10 80
+
+[notice ] 11 80
+
+[notice ] 12 100
+
+[notice ] 13 100
+
+[notice ] 14 60
+
+[notice ] 15 80
+
+[notice ] 16 80
+
+[notice ] 17 100
+
+[notice ] 18 100
+
+[notice ] 19 60
+
+[notice ] 20 48
+
+[notice ] 21 48
+
+[notice ] 22 60
+
+[notice ] 23 60
+
+[notice ] 24 36
+
+[notice ] 25 64
+
+[notice ] 26 64
+
+[notice ] 27 80
+
+[notice ] 28 80
+
+[notice ] 29 48
+
+[notice ] 30 64
+
+[notice ] 31 64
+
+[notice ] 32 80
+
+[notice ] 33 80
+
+[notice ] 34 48
+
+[notice ] 35 80
+
+[notice ] 36 80
+
+[notice ] 37 100
+
+[notice ] 38 100
+
+[notice ] 39 60
+
+[notice ] 40 80
+
+[notice ] 41 80
+
+[notice ] 42 100
+
+[notice ] 43 100
+
+[notice ] 44 60
+
+[notice ] 45 48
+
+[notice ] 46 48
+
+[notice ] 47 60
+
+[notice ] 48 60
+
+[notice ] 49 36
+
+[notice ] 50 80
+
+[notice ] 51 80
+
+[notice ] 52 100
+
+[notice ] 53 100
+
+[notice ] 54 60
+
+[notice ] 55 80
+
+[notice ] 56 80
+
+[notice ] 57 100
+
+[notice ] 58 100
+
+[notice ] 59 60
+
+[notice ] 60 100
+
+[notice ] 61 100
+
+[notice ] 62 125
+
+[notice ] 63 125
+
+[notice ] 64 75
+
+[notice ] 65 100
+
+[notice ] 66 100
+
+[notice ] 67 125
+
+[notice ] 68 125
+
+[notice ] 69 75
+
+[notice ] 70 60
+
+[notice ] 71 60
+
+[notice ] 72 75
+
+[notice ] 73 75
+
+[notice ] 74 45
+
+[notice ] 75 80
+
+[notice ] 76 80
+
+[notice ] 77 100
+
+[notice ] 78 100
+
+[notice ] 79 60
+
+[notice ] 80 80
+
+[notice ] 81 80
+
+[notice ] 82 100
+
+[notice ] 83 100
+
+[notice ] 84 60
+
+[notice ] 85 100
+
+[notice ] 86 100
+
+[notice ] 87 125
+
+[notice ] 88 125
+
+[notice ] 89 75
+
+[notice ] 90 100
+
+[notice ] 91 100
+
+[notice ] 92 125
+
+[notice ] 93 125
+
+[notice ] 94 75
+
+[notice ] 95 60
+
+[notice ] 96 60
+
+[notice ] 97 75
+
+[notice ] 98 75
+
+[notice ] 99 45
+
+[notice ] 100 48
+
+[notice ] 101 48
+
+[notice ] 102 60
+
+[notice ] 103 60
+
+[notice ] 104 36
+
+[notice ] 105 48
+
+[notice ] 106 48
+
+[notice ] 107 60
+
+[notice ] 108 60
+
+[notice ] 109 36
+
+[notice ] 110 60
+
+[notice ] 111 60
+
+[notice ] 112 75
+
+[notice ] 113 75
+
+[notice ] 114 45
+
+[notice ] 115 60
+
+[notice ] 116 60
+
+[notice ] 117 75
+
+[notice ] 118 75
+
+[notice ] 119 45
+
+[notice ] 120 36
+
+[notice ] 121 36
+
+[notice ] 122 45
+
+[notice ] 123 45
+
+[notice ] 124 27
 
 [notice ] index | density | pressure
 [notice ] 0 575.766 -1272.7
