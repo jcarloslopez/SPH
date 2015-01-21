@@ -17,7 +17,11 @@ Particle::Particle(ofVec3f _pos,float _mass,int _index,float _r){
 
 void Particle::draw ()
 {
-	ofSetColor(0,111,255);
+	//if(index==4||index==9||index==13||index==19||index==29||index==34||index==39||index==44||index==72||index==73||index==74||index==97||index==98||index==99||index==104||index==109||index==122||index==123||index==124){
+	//	ofSetColor(255,0,0);	
+	//}else{
+		ofSetColor(0,111,255);
+	//}
 	ofDrawSphere( pos.x, pos.y,pos.z ,r);
 }
 

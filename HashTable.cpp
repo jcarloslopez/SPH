@@ -22,7 +22,7 @@ unsigned HashTable::hash(const ofVec3f c){
 }
 
 void HashTable::limpiar(){
-	for(int i = 0; i < tam; i++){
+	for(int i = 0; i < t.size(); i++){
 		t[i].clear();
 	}
 }
@@ -37,43 +37,8 @@ vector<vector<int>> HashTable::getTabla(){
 
 vector<int> HashTable::getVecinos(ofVec3f c){
 	vector<int> vecinos;
-	vector<int> aux;
 	ofVec3f p;
 
-	/*//Misma celda
-	p = c;
-	aux = getCeldaAt(p);
-	vecinos.insert(vecinos.end(),aux.begin(),aux.end());
-	//Celda derecha
-	p = c;
-	p.x += cell_size;
-	aux = getCeldaAt(p);
-	vecinos.insert(vecinos.end(),aux.begin(),aux.end());
-	//Celda izquierda
-	p = c;
-	p.x -= cell_size;
-	aux = getCeldaAt(p);
-	vecinos.insert(vecinos.end(),aux.begin(),aux.end());
-	//Celda arriba
-	p = c;
-	p.y += cell_size;
-	aux = getCeldaAt(p);
-	vecinos.insert(vecinos.end(),aux.begin(),aux.end());
-	//Celda abajo
-	p = c;
-	p.y -= cell_size;
-	aux = getCeldaAt(p);
-	vecinos.insert(vecinos.end(),aux.begin(),aux.end());
-	//Celda enfrente
-	p = c;
-	p.z += cell_size;
-	aux = getCeldaAt(p);
-	vecinos.insert(vecinos.end(),aux.begin(),aux.end());
-	//Celda atras
-	p = c;
-	p.z -= cell_size;
-	aux = getCeldaAt(p);
-	vecinos.insert(vecinos.end(),aux.begin(),aux.end());*/
 	for (int i = -1; i < 2; i++){
 		for (int j = -1; j < 2; j++){
 			for (int k = -1; k < 2; k++){

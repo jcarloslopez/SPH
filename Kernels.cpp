@@ -7,13 +7,13 @@ Kernels::Kernels(float _h){
 	h9 = pow(h,9);
 
 	wPoly6 = 315.0f / (64.0f*PI*h9);
-	wPoly6Gradient = -945 / (32*PI*h9);
-	wPoly6Laplacian = -945 / (32*PI*h9);
-	wSpiky = 15 / (PI*h6);
+	//wPoly6Gradient = -945 / (32*PI*h9);
+	//wPoly6Laplacian = -945 / (32*PI*h9);
+	//wSpiky = 15 / (PI*h6);
 	wSpikyGradient = -45.0f / (PI*h6);
-	wSpikyLaplacian = -90 / (PI*h6);
-	wViscosity = 15 / (2*PI*h3);
-	wViscosityGradient = 15 / (2*PI*h3);
+	//wSpikyLaplacian = -90 / (PI*h6);
+	//wViscosity = 15 / (2*PI*h3);
+	//wViscosityGradient = 15 / (2*PI*h3);
 	wViscosityLaplacian = 45.0f / (PI*h6);
 }
 float Kernels::poly6(float r){ ///////////////////
@@ -25,7 +25,7 @@ ofVec3f Kernels::spikyGradient(ofVec3f r,float fn){ ////////////////
 float Kernels::viscosityLaplacian(float r){ ///////
 	return (wViscosityLaplacian*(h-r));
 }
-
+/*
 ofVec3f Kernels::poly6Gradient(ofVec3f r){
 	//return (wPoly6Gradient*r)*SQR(h2-r.dot(r));
 	return ofVec3f();
@@ -48,3 +48,4 @@ ofVec3f Kernels::viscosity(ofVec3f r){
 ofVec3f Kernels::viscosityGradient(ofVec3f r){
 	return ofVec3f();
 }
+*/
